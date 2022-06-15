@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.videostoright {
+  padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: inherit;
+    border-bottom: 1px solid;
+    width: 100%;
+    max-width: 430px;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}
+.videostoright img {
+  width: 100%;
+  max-width: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.snippettitle {
+  width: 250px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.spinners{
+  text-align: center;
+  margin-top: 50px;
+  justify-content:space-around
+}
+.spinner{
+  text-align: center;
+  margin-top: 450px;
+}
+
+.textborder{
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-style:double;
+  margin-top: 100px;
+}
+
+.search{
+  margin-top: 10px;
+}
